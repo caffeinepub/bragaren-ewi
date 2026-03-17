@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        space: ["'Space Grotesk'", "sans-serif"],
+        tight: ["'Inter Tight'", "sans-serif"],
         mono: ["'JetBrains Mono'", "monospace"],
       },
       colors: {
@@ -69,12 +69,6 @@ export default {
           "accent-foreground": "oklch(var(--sidebar-accent-foreground))",
           border: "oklch(var(--sidebar-border))",
           ring: "oklch(var(--sidebar-ring))",
-        },
-        ewi: {
-          bg: "oklch(0.07 0 0)",
-          black: "oklch(0.04 0 0)",
-          orange: "oklch(0.625 0.255 32)",
-          text: "oklch(0.966 0 0)",
         },
       },
       borderRadius: {
